@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selling History | GlamGait</title>
+    <title>Selling Details | GlamGait</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -15,7 +15,7 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <a href="SellingItems.html"><img src="../images/newlogo.jpg" alt="logo" width="125px"></a>
+                <a href="SellingItems.html"><img src="../images/logo.png" alt="logo" width="125px"></a>
             </div>
             <nav>
                 <ul id="MenuItems">
@@ -30,16 +30,45 @@
         </div>
     </div>
 
-
-    <div class="small-container">
-        <div class="row row-2">
-            <h2>Selling History</h2>
-            <a href ="SellingItems.html"> View Selling Items</a>
-        </div>
-
-        <div id="productContainer">
+    <div class="small-container single-product">
+        <form>
+            <h1>Join Us</h1>
+            <fieldset>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+    
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+    
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+    
+    
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" required><br><br>
+    
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br><br>
+    
+                <label for="cv">CV:</label>
+                <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required><br><br>
+    
+                <label for="aboutYou">Tell us about you:</label>
+                <textarea id="aboutYou" name="aboutYou" rows="4" cols="50" placeholder="why you want to join us"></textarea><br><br>
+    
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <div class="row">
         </div>
     </div>
+
+    
+  
+
 
     <!-- Footer -->
     <div class="footer">
@@ -94,8 +123,16 @@
             }
         }
     </script>
-       <script src="../js/fetchSellingHistory.js"></script>
-
+   <script src="../js/fetchProducts.js"></script>
+    
 </body>
 
 </html>
+
+
+
+
+
+
+
+

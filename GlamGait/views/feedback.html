@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling Details | GlamGait</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="SellingItems.html"><img src="../images/logo.png" alt="logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container single-product">
+        <form>
+            <h1>Feedback</h1>
+            <fieldset>
+                <p>We care deeply about our customers' feedback. Please rate your experience with us:</p>
+                <label for="customerName">Name:</label>
+                <input type="text" id="customerName" name="customerName" required><br><br>
+    
+                <label for="customerEmail">Email:</label>
+                <input type="email" id="customerEmail" name="customerEmail" required><br><br>
+    
+                <label for="experienceRating">Rate Your Experience:</label>
+                <select id="experienceRating" name="experienceRating">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="bad">Bad</option>
+                </select><br><br>
+    
+                <label for="feedbackText">Why? Please elaborate:</label>
+                <textarea id="feedbackText" name="feedbackText" rows="4" cols="50"></textarea><br><br>
+    
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <div class="row">
+        </div>
+    </div>
+
+    
+  
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="../images/play-store.png">
+                    <img src="../images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="AboutUs.html">About us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="policies.html">Return Policy</a></li>
+                    <li><a href="joinUs.html"> Join Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=61558088391398&mibextid=uzlsIk">Facebook</a></li>
+                    <li><a href="https://x.com/gaitglam?s=21&t=8VPPTS3r-jewbC_Al3JATg">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/glam.gait1?igsh=bjF2bTBsZTNpaW9v">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@glamgait1?_t=8l7KAhJpaiO&_r=1">Tiktok</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+
+    <!-- javascript -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+   <script src="../js/fetchProducts.js"></script>
+    
+</body>
+
+</html>
+

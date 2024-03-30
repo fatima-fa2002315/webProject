@@ -124,5 +124,32 @@
     "image": "../images/exclusive.png",
     "seller_id": "1",
     "id": "8003528230241"
+  },
+  {
+    "name": "gray nike shoe",
+    "rating": "5",
+    "description": "gray nike men shoe",
+    "price": "$50",
+    "image": "../images/in-season-tr-13-workout-shoes-BDTlPf.png",
+    "seller_id": "3",
+    "id": "7628219656863"
+  },
+  {
+    "name": "white shoe",
+    "rating": "5",
+    "description": "white addidas shoe",
+    "price": "$80",
+    "image": "../images/category-2.jpg",
+    "seller_id": "3",
+    "id": "5155615781053"
+  },
+  {
+    "name": "jacket",
+    "rating": "4",
+    "description": "gray jacket",
+    "price": "$40",
+    "image": "../images/category-3.jpg",
+    "seller_id": "1",
+    "id": "1710526768741"
   }
 ]

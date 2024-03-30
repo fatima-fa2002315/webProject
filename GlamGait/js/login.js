@@ -30,9 +30,12 @@ function authUser(e) {
           console.log("loggedIn", loggedInUser);
           localStorage.setItem("user", JSON.stringify(loggedInUser));
           let firstPage = loggedInUser.type == 'buyer' ? 'SearchProducts.html' : 'SellingItems.html'
-          window.location.href=firstPage
+          window.location.href = firstPage;
+        } else {
+          alert("Incorrect username or password. Please try again.");
         }
       })
       .catch((error) => console.error("Error fetching data:", error));
   }
 }
+

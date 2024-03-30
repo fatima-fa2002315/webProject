@@ -6,7 +6,7 @@
     "type": "seller",
     "firstName": "John",
     "lastName": "Doe",
-    "wallet": 0
+    "wallet": 500
   },
   {
     "id": 3,
@@ -15,7 +15,7 @@
     "type": "seller",
     "firstName": "Bob",
     "lastName": "Johnson",
-    "wallet": 0
+    "wallet": 100
   },
   {
     "id": 5,
@@ -42,6 +42,6 @@
     "type": "buyer",
     "firstName": "Alice",
     "lastName": "White",
-    "wallet": 360
+    "wallet": 1430
   }
 ]

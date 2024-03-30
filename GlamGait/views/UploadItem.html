@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Product | GlamGait</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="SellingItems.html"
+            ><img src="../images/logo.png" alt="logo" width="125px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+        <!-- <a href=""><img src="../images/cart.png" width="30px" height="30px"></a> -->
+        <img
+          src="../images/menu.png"
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+
+    <!-- Account Page -->
+    <div class="account-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="form-container" style="width: 100%;min-height: 50vh;overflow-y: auto;">
+              <div class="form-btn">
+                <span style="width: 100%" >Add Product</span>
+              </div>
+              <form
+                id="uploadItem"
+                style="top: 70px; max-width: 100%; width: 100%"
+                onsubmit="uploadItem(event)"
+              >
+                <div class="uploadformGroup">
+                  <div class="uploadFormInput">
+                    <label>Product Name</label>
+                    <input
+                      type="text"
+                      id="productName"
+                      placeholder="Product Name"
+                    />
+                  </div>
+                  <div class="uploadFormInput">
+                    <label>Rating</label>
+                    <input type="number" id="rating" min="1" max="5" />
+                  </div>
+                </div>
+                <div class="uploadFormInput">
+                  <label>Product Description</label>
+                  <textarea
+                    style="width: 100%; height: 100%"
+                    rows="3"
+                    placeholder="Description..."
+                    id="description"
+                  ></textarea>
+                </div>
+                <div class="uploadFormInput">
+                  <label>Product Price</label>
+                  <input type="number" id="productPrice" min="5" />
+                </div>
+
+                <div class="file-uploader">
+                    <label for="file-input" class="file-label">
+                      <span class="file-text">Choose a file</span>
+                      <input id="file-input" type="file" accept="image/*" class="file-input">
+                    </label>
+                    <span class="file-name">No file chosen</span>
+                  </div>
+
+                <button type="submit" class="btn">Add Product</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="../images/play-store.png" />
+              <img src="../images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <!-- <img src="../images/logo.png"> -->
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+              Sports Accessible to the Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <!-- javascript -->
+
+    <script src="../js/UploadItem.js"></script>
+  </body>
+</html>

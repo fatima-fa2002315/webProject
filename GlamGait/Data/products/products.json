@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Red Printed T-Shirt",
+    "image": "../images/product-1.jpg",
+    "rating": 4,
+    "price": "$50.00",
+    "description": "This red printed T-shirt is made from high-quality cotton fabric, offering both comfort and style. Perfect for casual outings and everyday wear.",
+    "seller_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Classical Black Shoe",
+    "image": "../images/product-2.jpg",
+    "rating": 4,
+    "price": "$70.00",
+    "description": "Step up your footwear game with these classical black shoes. Crafted with premium leather, they provide durability and sophistication.",
+    "seller_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Gray Printed Trouser",
+    "image": "../images/product-3.jpg",
+    "rating": 4,
+    "price": "$20.00",
+    "description": "Add a touch of elegance to your wardrobe with these gray printed trousers. Designed for both comfort and style, they're suitable for various occasions.",
+    "seller_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Blue Printed T-Shirt",
+    "image": "../images/product-4.jpg",
+    "rating": 4,
+    "price": "$10.00",
+    "description": "Stay cool and stylish with this blue printed T-shirt. Made from breathable fabric, it's perfect for warm weather and casual outings.",
+    "seller_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Classical Gray Shoe",
+    "image": "../images/product-5.jpg",
+    "rating": 5,
+    "price": "$92.00",
+    "description": "Elevate your footwear collection with these classical gray shoes. Featuring a timeless design and superior craftsmanship, they offer both style and comfort.",
+    "seller_id": 3
+  },
+  {
+    "id": 6,
+    "name": "Green Printed T-Shirt",
+    "image": "../images/product-6.jpg",
+    "rating": 4,
+    "price": "$50.00",
+    "description": "Make a statement with this green printed T-shirt. Its vibrant color and unique design will add flair to any casual ensemble.",
+    "seller_id": 1
+  },
+  {
+    "id": 7,
+    "name": "Cotton Socks",
+    "image": "../images/product-7.jpg",
+    "rating": 3,
+    "price": "$50.00",
+    "description": "Keep your feet comfortable and stylish with these cotton socks. Perfect for everyday wear, they offer a snug fit and durability.",
+    "seller_id": 1
+  },
+  {
+    "id": 8,
+    "name": "Fossil Branded Watch",
+    "image": "../images/product-8.jpg",
+    "rating": 4,
+    "price": "$50.00",
+    "description": "Stay punctual and stylish with this Fossil branded watch. Featuring a sleek design and reliable quartz movement, it's a must-have accessory.",
+    "seller_id": 1
+  },
+  {
+    "id": 9,
+    "name": "Radeo Watch",
+    "image": "../images/product-9.jpg",
+    "rating": 4,
+    "price": "$42.00",
+    "description": "Add a touch of sophistication to your wrist with this Radeo watch. With its minimalist design and precise movement, it's perfect for everyday wear.",
+    "seller_id": 1
+  },
+  {
+    "id": 10,
+    "name": "Classical Red Shoe",
+    "image": "../images/product-10.jpg",
+    "rating": 4,
+    "price": "$50.00",
+    "description": "Step out in style with these classical red shoes. Crafted with premium materials and attention to detail, they offer both comfort and fashion.",
+    "seller_id": 3
+  },
+  {
+    "id": 11,
+    "name": "Classical White Shoe",
+    "image": "../images/product-11.jpg",
+    "rating": 1,
+    "price": "$63.00",
+    "description": "Complete your casual look with these classical white shoes. Featuring a timeless design and durable construction, they're perfect for everyday wear.",
+    "seller_id": 3
+  },
+  {
+    "id": 12,
+    "name": "Black Trouser",
+    "image": "../images/product-12.jpg",
+    "rating": 2,
+    "price": "$50.00",
+    "description": "Stay comfortable and stylish with these black trousers. Made from high-quality fabric, they offer a flattering fit and versatile styling options.",
+    "seller_id": 3
+  }
+]

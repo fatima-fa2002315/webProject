@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "username": "john_doe",
+    "password": "password123",
+    "type": "seller",
+    "firstName": "John",
+    "lastName": "Doe",
+    "wallet": 0
+  },
+  {
+    "id": 3,
+    "username": "bob_johnson",
+    "password": "123456",
+    "type": "seller",
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "wallet": 0
+  },
+  {
+    "id": 4,
+    "username": "alice_white",
+    "password": "password456",
+    "type": "buyer",
+    "firstName": "Alice",
+    "lastName": "White",
+    "wallet": 500
+  },
+  {
+    "id": 5,
+    "username": "admin",
+    "password": "password123",
+    "type": "admin",
+    "firstName": "admin",
+    "lastName": "localhost",
+    "wallet": 0
+  },
+  {
+    "id": 2,
+    "username": "jane_smith",
+    "password": "hello@123",
+    "type": "buyer",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "wallet": 30
+  }
+]

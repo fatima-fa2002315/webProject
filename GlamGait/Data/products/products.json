@@ -106,5 +106,23 @@
     "price": "$50.00",
     "description": "Stay comfortable and stylish with these black trousers. Made from high-quality fabric, they offer a flattering fit and versatile styling options.",
     "seller_id": 3
+  },
+  {
+    "name": "red shoe",
+    "rating": "5",
+    "description": "red shoe",
+    "price": "$20",
+    "image": "../images/category-1.jpg",
+    "seller_id": "3",
+    "id": "11884292258983"
+  },
+  {
+    "name": "red watch",
+    "rating": "5",
+    "description": "red electronic watch",
+    "price": "$100",
+    "image": "../images/exclusive.png",
+    "seller_id": "1",
+    "id": "8003528230241"
   }
 ]
